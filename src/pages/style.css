@@ -1,0 +1,15 @@
+.error-message {
+  padding: 8px;
+  border: 1px solid red;
+  border-radius: 4px;
+  margin-top: 1rem;
+  color: white;
+}
+
+.error-message.success {
+  background-color: green;
+}
+
+.error-message:not(.success) {
+  background-color: red;
+}

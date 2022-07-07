@@ -1,0 +1,19 @@
+const GAME_LEVELS = {
+  BEGINEER: "begineer",
+  INTERMIDATE: "intermediate",
+  EXPERT: "expert"
+};
+
+const GAME_SIZE = {
+  [GAME_LEVELS.BEGINEER]: 9,
+  [GAME_LEVELS.INTERMIDATE]: 16,
+  [GAME_LEVELS.EXPERT]: 25
+};
+
+const BOMB_COUNT = {
+  [GAME_LEVELS.BEGINEER]: 9,
+  [GAME_LEVELS.INTERMIDATE]: 16,
+  [GAME_LEVELS.EXPERT]: 25
+};
+
+export { GAME_LEVELS, GAME_SIZE, BOMB_COUNT };

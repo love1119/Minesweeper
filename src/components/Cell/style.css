@@ -1,0 +1,21 @@
+.cell {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cell:not(.covered) {
+  background-color: green;
+  color: white;
+}
+
+.cell:not(.covered).bomb {
+  background-color: red;
+  color: color;
+  font-weight: 900;
+}

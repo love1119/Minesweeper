@@ -1,0 +1,16 @@
+.header {
+
+}
+
+.header .header__label {
+  margin-right: 1rem;
+}
+
+.header .header__select {
+  width: 200px;
+  margin-right: 1rem;  
+}
+
+.header .header__play {
+  width: 50px;
+}

@@ -1,0 +1,4 @@
+.gameboard {
+  display: grid;
+  width: fit-content;
+}
